@@ -49,8 +49,7 @@ Combiné à un status_code = 200 sur URI de type /api/v1/export ou /api/v1/repor
 
 -Élévation de privilèges
 log_source = system + severity = critical + process = auditd ou sudo
-Suivi d'un auth_method = ssh success depuis la même machine peu après 
-SANSA — Yesterday at 21:01
+Suivi d'un auth_method = ssh success depuis la même machine peu après
 
 
 ## Architecture de scoring des règles pour le LLM
