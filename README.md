@@ -66,5 +66,7 @@ Chaque log reçoit un score de risque cumulatif :
 -5   user_agent légitime + IP connue
 
 -Score > 40 → envoi au LLM pour analyse approfondie
+
 -Score > 70 → soumission directe + LLM en parallèle
+
 -L'enrichissement par threat intelligence Cyber Sierra (croiser les IPs suspectes avec des feeds comme AbuseIPDB ou Shodan) permettrait aussi d'augmenter la confiance sur des IPs comme 185.220.101.42 — qui est un nœud Tor connu — sans avoir besoin du LLM
